@@ -8,7 +8,9 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
-    new Recipe('test Recipe', 'this is a test recipe', 'https://www.simplyrecipes.com/thmb/JWjdE8YwikAae0KZuyy6ZJW7Utw=/3000x2001/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Homemade-Pizza-Dough-Lead-Shot-1c-c2b1885d27d4481c9cfe6f6286a64342.jpg')
+    new Recipe('test Recipe', 'this is a test recipe', 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg'),
+    new Recipe('test Recipe', 'this is a test recipe', 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg'),
+    new Recipe('test Recipe', 'this is a test recipe', 'https://images.immediate.co.uk/production/volatile/sites/30/2020/08/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg')
   ];
   constructor() { }
 
